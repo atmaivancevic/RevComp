@@ -40,7 +40,7 @@ func main() {
 		for i := range s.Seq {
 			s.Seq[i] &^= ' '
 		}
-		// indicate that this is the reverse-complemented sequence
+		// indicate that this is the reverse complemented sequence
 		s.ID = s.ID + ".rev"
 		// write header
 		outputWriter.WriteString(">" + s.ID + "\n")
