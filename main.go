@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"code.google.com/p/biogo/alphabet"
+	"github.com/biogo/biogo/alphabet"
 	"code.google.com/p/biogo/io/seqio"
 	"code.google.com/p/biogo/io/seqio/fasta"
 	"code.google.com/p/biogo/seq/linear"
